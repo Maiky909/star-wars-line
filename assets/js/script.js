@@ -23,7 +23,7 @@ function InsertarCardPersonaje(dataApi, rowTimeLine, colorClass) {
   let card = `
         <div class="col-12 col-md-6 col-lg-4">
           <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-               <div class="timeline-icon ${colorClass}"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+               <div class="timeline-icon ${colorClass}"></div>
               <div class="timeline-text">
                   <h6>${name}</h6>
                   <p>Estatura: ${height} cm. Peso: ${mass} kg.</p>
